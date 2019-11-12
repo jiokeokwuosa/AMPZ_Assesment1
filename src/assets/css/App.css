@@ -1,0 +1,96 @@
+.App{
+  background: #0000FF;
+  opacity: 0.9;
+  padding: 87px 145px;
+}
+#main{  
+  background: white;
+  position: relative;
+  z-index: 20;
+}
+.overlay{
+  position: absolute;
+  height: 152%;
+  width: 100%;
+  background: white;
+  top: 0px;
+  left: 0px;
+  opacity: 0.3;
+}
+.floatImg1 {
+  position: absolute;
+  top: 0px;
+  left: -1px;
+  z-index: 20;
+  opacity: 0.4;
+}
+.floatImg2 {
+  position: absolute;
+  top: 49px;
+  right: 106px;
+  z-index: 20;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  background:#00F;
+  opacity: 0.2;
+  border: solid;
+}
+#main .row1 {
+  padding: 48px;
+  text-align: right;
+}
+#main .row1 img{
+  margin-right: 50px;
+}
+#main .row2{
+  text-align: center; 
+  padding: 76px 0px;
+}
+#main .row3{
+  text-align: center;  
+}
+#main .row3 input {
+  padding: 10px 131px 10px 2px;
+  margin-top: -10px;
+  border: none;     
+  border-bottom: solid 2px#00BFFF;
+  font-size: 20px;
+  color:#00BFFF;
+}
+#main .row3 img {
+  margin-left: -43px;
+}
+#main .row4 {
+  padding: 90px 298px 57px 298px;
+  text-align:center;
+}
+
+#main .row4 .title {
+  margin-top: 22px;
+  color:#00BFFF;
+}
+#main .row5 {
+  padding: 0px 298px 153px 298px;
+  text-align:center;
+}
+
+#main .row5 .title {
+  margin-top: 22px;
+  color:#00BFFF;
+}
+.lastFloat{
+  position: absolute;
+  left: 0;
+  bottom: -340px;
+  z-index: 30;
+  width: 100%;
+  opacity: 0.6;
+}
+.copyright{
+  position: absolute;
+  right: 172px;
+  color: white;
+  z-index: 40;
+  bottom: -260px;
+}
